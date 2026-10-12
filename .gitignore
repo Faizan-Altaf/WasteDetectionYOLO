@@ -1,0 +1,39 @@
+﻿# Datasets and backups
+dataset/
+datasets/
+dataset_backup_*/
+labels_before_cleanup/
+original dataset/
+
+# Training and generated files
+outputs/
+runs/
+predictions/
+videos/
+weights/
+notebooks/
+report/
+reports/
+
+# Keep only the final model in models/
+models/*
+!models/best.pt
+
+# Large base model and generated artifacts
+yolov8n.pt
+*.onnx
+*.engine
+*.pth
+*.ckpt
+*.log
+
+# Docker files are not needed for Streamlit Cloud
+Dockerfile
+.dockerignore
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
