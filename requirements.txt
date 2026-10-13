@@ -3,3 +3,5 @@ ultralytics
 opencv-python-headless
 pandas
 Pillow
+
+lapx
